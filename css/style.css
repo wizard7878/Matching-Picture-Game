@@ -1,0 +1,12 @@
+.table{
+    width: 100em;
+    height: 50em;
+}
+
+td{
+    width: 200px;
+}
+
+th{
+    width: 200px;
+}
