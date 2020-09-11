@@ -1,6 +1,12 @@
+body{
+    background-image: linear-gradient(to right bottom, #954040, #2a4cf8);
+}
+
+
 .table{
     width: 100em;
     height: 50em;
+    display: none;
 }
 
 td{
@@ -9,4 +15,8 @@ td{
 
 th{
     width: 200px;
+}
+
+.Welcome{
+    color: white;
 }
