@@ -20,3 +20,19 @@ th{
 .Welcome{
     color: white;
 }
+
+.timer{
+    font-size: 90px;
+    padding-right: 3em;
+    color: white;
+}
+
+.T{
+    display: none;
+}
+
+
+.playagain{
+    display: none;
+    color: white;
+}

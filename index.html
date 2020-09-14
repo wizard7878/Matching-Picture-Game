@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Match Images</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/firework.css"> -->
 </head>
 <body>
     <div class="container" style="height: 200vh;">
        <div class="d-flex justify-content-center align-items-center" style="height: 50%;">
+
+        <div class="pyro">
+          <div class="before"></div>
+          <div class="after"></div>
+      </div>
 
         <div class="Welcome">
           <h2>
@@ -18,50 +22,83 @@
           </h2><br>
           <div class="dropdown-divider"></div>
           <p style="font-size: 20px;">
-            Play this picture matching game for kids and have fun improving your memory.
+            Play this picture matching game have fun improving your memory.
             Click on the different cards to find pairs of matching pictures. Try to finish the memory puzzle using as few moves as possible. 
             Can you remember where the pictures are hiding? 
+
+          
           </p>
 
           <p style="font-size: 20px;">
-            Are you ready ? Click Here!
+            Are you ready ? Click Button!
+            <br>
+            Peyman ShomalZadeh 2020
             <br><br>
             <button id="start_game" class="btn btn-primary">Start The Game</button>
+            <!-- <button id="random" class="btn btn-danger">Random Number</button> -->
           </p>
       </div>
+
+     <div class="playagain">
+       <h3>Do you want to play again?</h3>
+       <hr>
+       <button id = "play_again" class="btn btn-warning">Play Again</button>
+     </div>
+
+      <div class="T text-capitalize">
+        <h3 style="color: white;">Count Down</h3>
+        <p class="timer">5</p>
+        
+      </div>
+<!-- 
+      <div class="text-capitalize">
+        <h3 style="color: white;">Count Down</h3>
+        <p class="" style="font-size: 40px; right: 6em;">0 : 0</p>
+        
+      </div> -->
+
+      <div>
+      
+      </div>
+
         <table class="table table-bordered table-dark">
             <tbody>
               <tr>
-                <th scope="row" ><img width="300" height="200" src="images/1.jpg"></th>
-                <td><img width="300" height="200" src="images/2.jpg"></td>
-                <td><img width="300" height="200" src="images/3.jpg"></td>
-                <td><img width="300" height="200" src="images/4.jpg"></td>
+                <th scope="row" ><img width="300" height="200" src="images/1.jpg" photo = 0></th>
+                <td><img width="300" height="200" src="images/2.jpg" photo = 1></td>
+                <td><img width="300" height="200" src="images/3.jpg" photo = 2></td>
+                <td><img width="300" height="200" src="images/4.jpg" photo = 3></td>
               </tr>
               <tr>
-                <th scope="row"><img width="300" height="200" src="images/5.jpg"></th>
-                <td><img  width="300" height="200" src="images/6.jpg"></td>
-                <td><img  width="300" height="200" src="images/7.jpg"></td>
-                <td><img width="300" height="200"  src="images/8.jpg"></td>
+                <th scope="row"><img width="300" height="200" src="images/5.jpg" photo = 4></th>
+                <td><img width="300" height="200" src="images/6.jpg" photo = 5></td>
+                <td><img width="300" height="200" src="images/7.jpg" photo = 6></td>
+                <td><img width="300" height="200" src="images/8.jpg" photo = 7></td>
               </tr>
               <tr>
-                <th scope="row"><img width="300" height="200" src="images/1.jpg"></th>
-                <td><img width="300" height="200" src="images/2.jpg"></td>
-                <td><img width="300" height="200" src="images/3.jpg"></td>
-                <td><img width="300" height="200" src="images/4.jpg"></td>
+                <th scope="row"><img width="300" height="200" src="images/1.jpg" photo = 8></th>
+                <td><img width="300" height="200" src="images/2.jpg" photo = 9></td>
+                <td><img width="300" height="200" src="images/3.jpg" photo = 10></td>
+                <td><img width="300" height="200" src="images/4.jpg" photo = 11></td>
               </tr>
 
               <tr>
-                <th scope="row"><img width="300" height="200" src="images/5.jpg"></th>
-                <td><img width="300" height="200" src="images/6.jpg"></td>
-                <td><img width="300" height="200" src="images/7.jpg"></td>
-                <td><img width="300" height="200" src="images/8.jpg"></td>
+                <th scope="row"><img width="300" height="200" src="images/5.jpg" photo = 12></th>
+                <td><img width="300" height="200" src="images/6.jpg" photo = 13></td>
+                <td><img width="300" height="200" src="images/7.jpg" photo = 14></td>
+                <td><img width="300" height="200" src="images/8.jpg" photo = 15></td>
               </tr>
             </tbody>
           </table>
         </div>
     </div>
 
+
+
+
+
     <script src="js/app.js"></script>
+  
 </body>
 </html>
 
